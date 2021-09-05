@@ -1,0 +1,43 @@
+* {
+  text-decoration: none;
+}
+body {
+  display: flex;
+}
+.col {
+  height: 100vh;
+}
+nav * {
+  font-size: 1em;
+}
+nav.navigation {
+  flex-basis: 20%;
+  padding: 0 0.2em;
+}
+nav.navigation > a {
+  display: flex;
+}
+.navItem {
+  padding: 0.2em 0.2em;
+  color: #0f1419;
+}
+.navItem:hover {
+  border-radius: 15px;
+  background-color: rgb(200, 200, 200);
+  transition-duration: 0.3s;
+}
+.navItem.text {
+  padding: 0 0.5em;
+}
+div.blueButton {
+  text-align: center;
+  border-radius: 15px;
+  background-color: #1d9bf0;
+}
+
+div.blueButton a {
+  color: white;
+}
+.blueBird {
+  color: #1d9bf0;
+}
